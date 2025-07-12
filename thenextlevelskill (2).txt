@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Fiverr Services for SaaS Founders | The Next Level Skill</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #003973, #e5e5be);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .gig-card {
+      background: #fff;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .gig-card h2 {
+      margin-top: 0;
+      color: #0056b3;
+    }
+    .gig-card p {
+      margin: 10px 0;
+    }
+    .gig-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .gig-card a:hover {
+      text-decoration: underline;
+    }
+    .cta {
+      text-align: center;
+      margin: 60px 0 20px;
+    }
+    .cta a {
+      background-color: #0056b3;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background-color: #003973;
+    }
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Top Fiverr Services for SaaS Startups</h1>
+    <p>Hand-picked expert services to help SaaS founders grow fast — from launch to scale.</p>
+  </header>
+
+  <div class="container">
+    <div class="gig-card">
+      <h2>Email Marketing Campaign & Automation</h2>
+      <p>Set up targeted welcome, onboarding, and nurture email flows using Instantly, Mailchimp, or GHL.</p>
+      <a href="https://bit.ly/3Gkthnu" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>Landing Page & Sales Funnel Design</h2>
+      <p>Create conversion-optimized landing pages and sales funnels for SaaS tools (Carrd, Webflow, ClickFunnels).</p>
+      <a href="https://bit.ly/40e60u7" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>Animated Explainer Video Creation</h2>
+      <p>1-2 minute explainer videos to demonstrate how your SaaS works — includes motion graphics and subtitles.</p>
+      <a href="https://bit.ly/4nL90YM" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>SEO Blog & Content Writing</h2>
+      <p>SEO-friendly blog posts, landing page copy, and SaaS content that drives organic traffic and leads.</p>
+      <a href="https://bit.ly/3IrdQuc" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>Customer Service & Chatbot Setup</h2>
+      <p>Set up helpdesk systems like Zendesk, live chat, chatbot automation, and FAQs for your SaaS customers.</p>
+      <a href="https://bit.ly/44HpIzF" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>UI/UX Design for SaaS Products</h2>
+      <p>App wireframes, user journey flow, UI mockups, and full front-end design for SaaS dashboards.</p>
+      <a href="https://bit.ly/4lWMXwR" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>API Integration & Automation</h2>
+      <p>Custom API connections, workflow automation with Zapier, Make, or webhook logic tailored to your stack.</p>
+      <a href="https://bit.ly/46H2pIT" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>Buyer Persona & Market Research</h2>
+      <p>Deep audience research and persona building to focus your SaaS marketing and messaging efforts.</p>
+      <a href="https://bit.ly/4nMkivV" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+    <div class="gig-card">
+      <h2>Google & LinkedIn Ads Setup</h2>
+      <p>Run targeted PPC campaigns with conversion tracking, ad creatives, and SaaS landing page alignment.</p>
+      <a href="https://bit.ly/4ePaMnZ" target="_blank">View This Gig on Fiverr →</a>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a href="https://bit.ly/40bPlHx" target="_blank">Browse All SaaS Services on Fiverr</a>
+  </div>
+
+  <footer>
+    &copy; 2025 The Next Level Skill — Made for SaaS Founders with Vision 💡
+  </footer>
+</body>
+</html>
