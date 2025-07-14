@@ -12,6 +12,37 @@
       color: #333;
       line-height: 1.6;
     }
+
+    /* NAVIGATION */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1e3c72;
+      padding: 10px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar-logo img {
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .navbar-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .navbar-links a:hover {
+      color: #a8d0f0;
+    }
+
     header {
       background: linear-gradient(to right, #1e3c72, #2a5298);
       color: white;
@@ -19,33 +50,30 @@
       text-align: center;
       position: relative;
     }
-    header img {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-    }
+
     header h1 {
       margin: 20px 0 10px;
       font-size: 2.8rem;
     }
+
     header p {
       font-size: 1.2rem;
       max-width: 700px;
       margin: 0 auto;
     }
+
     .container {
       padding: 40px 20px;
       max-width: 1100px;
       margin: 0 auto;
     }
+
     .section-title {
       text-align: center;
       margin-bottom: 30px;
       color: #0056b3;
     }
+
     .service-card, .gig-card {
       background: #fff;
       padding: 25px;
@@ -53,13 +81,16 @@
       border-radius: 12px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     }
+
     .service-card h2, .gig-card h2 {
       margin-top: 0;
       color: #0056b3;
     }
+
     .service-card ul {
       padding-left: 20px;
     }
+
     .gig-card a, .cta a {
       display: inline-block;
       margin-top: 10px;
@@ -67,13 +98,16 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .gig-card a:hover, .cta a:hover {
       text-decoration: underline;
     }
+
     .cta {
       text-align: center;
       margin: 60px 0 20px;
     }
+
     .cta a {
       background-color: #0056b3;
       color: #fff;
@@ -83,6 +117,7 @@
       border-radius: 30px;
       transition: 0.3s;
     }
+
     footer {
       background-color: #f0f0f0;
       text-align: center;
@@ -90,11 +125,40 @@
       font-size: 0.9rem;
       color: #666;
     }
+
+    /* Responsive Tweak */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .navbar-links {
+        margin-top: 10px;
+      }
+      .navbar-links a {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://i.postimg.cc/c1nZNL8n/Sprint.png" alt="Logo" />
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="navbar-logo">
+      <a href="#home">
+        <img src="https://i.postimg.cc/c1nZNL8n/Sprint.png" alt="Logo">
+      </a>
+    </div>
+    <div class="navbar-links">
+      <a href="#home">Home</a>
+      <a href="#free-resources">Free Resources</a>
+      <a href="mailto:result.stories@thenextlevelskill.com">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="home">
     <h1>The Next Level Skill — Helping Entrepreneurs Win</h1>
     <p>Get done-for-you digital solutions: SEO, landing pages, DNS, email marketing, domain setup, and more — fast, reliable, and affordable.</p>
   </header>
@@ -123,7 +187,14 @@
       </div>
     </div>
 
-    <h2 class="section-title">Hand-Picked Fiverr Services (Affiliate)</h2>
+    <h2 class="section-title" id="free-resources">Hand-Picked Fiverr Services (Affiliate)</h2>
+
+    <div style="text-align:center; margin-bottom: 40px;">
+      <a href="https://go.fiverr.com/visit/?bta=1130113&nci=17044" target="_top">
+        <img border="0" src="https://fiverr.ck-cdn.com/tn/serve/?cid=42009927" width="601" height="501" alt="Fiverr Affiliate">
+      </a>
+    </div>
+
     <div class="gig-card">
       <h2>Email Marketing Campaign & Automation</h2>
       <p>Set up targeted welcome, onboarding, and nurture email flows using Instantly, Mailchimp, or GHL.</p>
@@ -174,26 +245,11 @@
       <a href="https://bit.ly/40bPlHx" target="_blank">Browse All SaaS Services on Fiverr</a>
     </div>
 
-    <!-- Tally.so Form -->
+    <!-- Tally Form Embed -->
     <div style="background-color: #eef2f7; padding: 30px; border-radius: 12px; max-width: 700px; margin: 40px auto;">
-      <h2 style="text-align:center; color: #0056b3;">Subscribe for Free Resources & Tips</h2>
-      <iframe 
-        data-tally-src="https://tally.so/embed/3EVRol?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
-        loading="lazy" 
-        width="100%" 
-        height="700" 
-        frameborder="0" 
-        marginheight="0" 
-        marginwidth="0" 
-        title="Tally Form">
-      </iframe>
-      <script>
-        var d=document,
-            s=d.createElement("script");
-        s.src="https://tally.so/widgets/embed.js";
-        s.onload=function(){Tally.loadEmbeds();};
-        d.body.appendChild(s);
-      </script>
+      <h2 style="text-align:center; color: #0056b3;">Let’s Bring Your Vision to Life</h2>
+      <iframe data-tally-src="https://tally.so/embed/mRep14?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="Free Resources Form"></iframe>
+      <script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.onload=function(){Tally.loadEmbeds();};d.body.appendChild(s);</script>
     </div>
   </div>
 
